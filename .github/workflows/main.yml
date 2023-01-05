@@ -14,8 +14,8 @@ jobs:
       - name: Check Github User
         run: |
           git --version
-          git config user.name 'libialany'
-          git config user.email 'elibialany@gmail.com'      
+          git config user.name 'Mademoisellefou'
+          git config user.email 'mel.estevez99@gmail.com'      
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           # Optional. Commit message for the created commit.
