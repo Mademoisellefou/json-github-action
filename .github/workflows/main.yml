@@ -15,6 +15,7 @@ jobs:
         with:
           # Optional. Commit message for the created commit.
           # Defaults to "Apply automatic changes"
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
           commit_message: Automated Change
 
           # Optional. Local and remote branch name where commit is going to be pushed
