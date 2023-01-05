@@ -16,7 +16,7 @@ jobs:
           git --version
           git config user.name 'Mademoisellefou'
           git config user.email 'mel.estevez99@gmail.com'      
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v2
         with:
           # Optional. Commit message for the created commit.
           # Defaults to "Apply automatic changes"
