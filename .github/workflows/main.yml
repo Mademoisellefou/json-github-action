@@ -11,6 +11,11 @@ jobs:
       - name: Download Feed
         run: |
           curl "https://api.github.com/" | jq . > output.json
+      - name: Check Github User
+        run: |
+          git --version
+          git config user.name 'libialany'
+          git config user.email 'elibialany@gmail.com'      
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           # Optional. Commit message for the created commit.
