@@ -5,9 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repo
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
         with:
-          fetch-depth: 0
+          ref: ${{ github.head_ref }}
       - name: Download Feed
         run: |
           curl "https://api.github.com/" | jq . > output.json
