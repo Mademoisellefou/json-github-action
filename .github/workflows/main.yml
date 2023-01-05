@@ -37,7 +37,7 @@ jobs:
           # Optional commit user and author settings
           commit_user_name: libialany
           commit_user_email: 
-          commit_author: Author elibialany@gmail.com # defaults to author of the commit that triggered the run
+          commit_author: libialany elibialany@gmail.com # defaults to author of the commit that triggered the run
 
           # Optional. Tag name being created in the local repository and 
           # pushed to remote repository and defined branch.
