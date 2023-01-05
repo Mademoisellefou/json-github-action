@@ -39,7 +39,7 @@ jobs:
           commit_user_email: 
           commit_author: libialany elibialany@gmail.com # defaults to author of the commit that triggered the run
 
-          # Optional. Tag name being created in the local repository and 
+          #  Optional. Tag name being created in the local repository and 
           # pushed to remote repository and defined branch.
           tagging_message: 'v1.0.0'
 
